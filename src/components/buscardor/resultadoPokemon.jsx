@@ -1,6 +1,5 @@
 import React from 'react';
 import { useSelector } from 'react-redux';
-import imgPokemon from '../../img/pokemon.jpg'
 
 const ResultadoPokemon = () => {
     const buscador = useSelector((state) => state.buscador)
